@@ -1,0 +1,169 @@
+body, form
+{
+	font-family: Lato;
+	margin: 0px;
+	padding: 0;
+	height: auto;
+	border: none;
+}
+h1,h2,h3{
+		display: block;
+		font-size: 2em;
+		font-weight: bold;
+}
+input, select, textarea
+{
+	padding: .4em;
+	border: 1px solid #959595;
+	font-size: 1em;
+	margin-bottom: .5em;
+	background-color: #fafafa;
+}
+tbody{
+	top: 0;
+	margin: 0;
+	height: 100%;;
+}
+
+tr,td{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+#defaultCointainer
+{
+	text-align: center;
+	margin: 0 auto;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: rgb(247,247,247); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(234,234,234,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+}
+#Login1{
+	color:#1998ff;
+	background-color:rgb(255, 255, 255);
+	font-size:0.8em;
+	height: 52vh;
+	width: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 8px;
+	transition: all .2s ease;
+
+	-webkit-box-shadow: 0px 10px 19px -7px rgba(0,0,0,0.49);
+	-moz-box-shadow: 0px 10px 19px -7px rgba(0,0,0,0.49);
+	box-shadow: 0px 10px 19px -7px rgba(0,0,0,0.49);
+}
+#Login1:hover{
+	-webkit-box-shadow: 0px 17px 30px -1px rgba(0,0,0,0.16);
+	-moz-box-shadow: 0px 17px 30px -1px rgba(0,0,0,0.16);
+	box-shadow: 0px 17px 30px -1px rgba(0,0,0,0.16);
+}
+.title h1{
+	font-size: 2em;
+	color: rgb(175, 175, 175);
+	font-weight: bold;
+	display: inline-block;
+	background-image: linear-gradient(to bottom, rgb(216, 216, 216), rgb(245, 245, 245));
+	-webkit-background-clip: text;
+	color: transparent;
+	padding-bottom: 50px;
+}
+.form_title{
+	font-size: 2.4em;
+	font-weight: 300;
+	color: #1998ff;
+	padding: 6vh 0;
+}
+#Login1_UserName{
+	border: none;
+	border-bottom:1px solid #aaaaaa;
+	width: 190px;
+	height: 25px;
+	background-color: white;
+	z-index: 100;
+	color: #1998ff;
+	transition: all .3s ease;
+	font-size: 1em;
+}
+#Login1_UserName:focus{
+	border: none;
+	border-bottom:2.2px solid #1998ff;
+	color: #1998ff;
+	outline: none;
+	font-size: 1.05em;
+	font-weight: 700;
+}
+#Login1_UserNameRequired{
+	display: block;
+}
+#Login1_Password{
+	border: none;
+	border-bottom:1px solid #aaaaaa;
+	width: 190px;
+	height: 25px;
+	background-color: white;
+	z-index: 100;
+	color: #1998ff;
+	transition: all .3s ease;
+	font-size: 1em;
+}
+#Login1_Password:focus{
+	border: none;
+	border-bottom:2.2px solid #1998ff;
+	color: #1998ff;
+	outline: none;
+	font-size: 1.05em;
+	font-weight: 700;
+}
+::placeholder{
+	color: #aaaaaa;
+}
+.user_icon{
+	fill:	#1998ff;
+	height: 11px;
+	width: 11px;
+	padding-bottom: 8px;
+	padding-right:10px;
+}
+#Login1_LoginButton{
+	padding: 10px 50px;
+	background-color: #1998ff;
+	color: white;
+	font-size: 1.2em;
+	font-weight: 300;
+	border-radius: 5px;
+	border: none;
+	transition: all .1s ease;
+	box-shadow: none;
+	margin-bottom: 20px;
+}
+#Login1_LoginButton:hover{
+	-webkit-box-shadow: inset 0px 10px 19px -7px rgba(0,0,0,0.49);
+	-moz-box-shadow: inset 0px 10px 19px -7px rgba(0,0,0,0.49);
+	box-shadow: inset 0px 10px 19px -7px rgba(0,0,0,0.49);
+	outline: none;
+}
+#Login1_LoginButton:active{
+	-webkit-box-shadow: inset 0px 10px 19px -7px rgba(0,0,0,0.49);
+	-moz-box-shadow: inset 0px 10px 19px -7px rgba(0,0,0,0.49);
+	box-shadow: inset 0px 10px 19px -7px rgba(0,0,0,0.49);
+	outline: none;
+}
+span{
+	color: rgb(231, 35, 77);
+	margin-bottom: 20px;
+	display: block;
+	padding: 0 30px;
+}
